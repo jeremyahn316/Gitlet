@@ -1,0 +1,14 @@
+I prelude1.inc
++ f.txt wug.txt
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "Add g.txt"
+<<<
+> add f.txt
+<<<
+> rm f.txt
+<<<
+> rm f.txt
+No reason to remove the file.
+<<<

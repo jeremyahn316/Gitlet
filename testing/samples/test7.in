@@ -1,0 +1,35 @@
+I prelude1.inc
+> branch two
+<<<
+> branch one
+<<<
+> branch two
+A branch with that name already exists.
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "Add f.txt"
+<<<
+> checkout other
+No such branch exists.
+<<<
+> checkout two
+<<<
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "Add g.txt"
+<<<
+> checkout master
+<<<
+> rm-branch two
+<<<
+> checkout two
+No such branch exists.
+<<<
+> rm-branch one
+<<<
+> checkout one
+No such branch exists.
+<<<
